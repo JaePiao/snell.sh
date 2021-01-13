@@ -8,6 +8,20 @@
 
 Debian & Ubuntu 用户请运行
 
+时间确认
+
+```
+date -R
+```
+
+时区矫正
+
+```
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+安装
+
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com//JaePiao/snell.sh/master/snell.sh
 chmod +x snell.sh
